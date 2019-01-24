@@ -1,0 +1,68 @@
+body {
+    background-color: #ab5beae3;
+    font-family: 'Kodchasan', sans-serif;
+    text-shadow: 1px 1px 2px #0000007d;
+}
+
+.paper {
+    background-color: white;
+    width: 750px;
+    height: 750px;
+    border-radius: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    box-shadow: 5px 5px 20px #792dcc94;
+}
+.paper-myprofile {
+    text-align: center;
+}
+p.h-paper {
+    text-align: center;
+    font-size: -webkit-xxx-large;
+    font-weight: 700;
+    margin: 10px;
+}
+
+img.myphoto {
+    width: 120px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px #252fa2a2;
+}
+
+.table-myprofile {
+    margin: 0 auto;
+    width: 100%;
+}
+.table-myprofile td:nth-child(1) {
+    text-align: left;
+    width: 20%;
+}
+.table-myprofile td:nth-child(2) {
+    text-align: center;
+    width: 10%;
+}
+.table-myprofile td:nth-child(3) {
+    text-align: left;
+    width: 70%;
+}
+.div-left-column {
+    padding-top: 25px;
+    float: left;
+    width: 180px;
+}
+.div-right-column {
+    width: 540px;
+    float: right;
+}
+.div-2column {
+    margin: 0 auto;
+    width: 720px;
+    height: 180px;
+    border-bottom-color: black;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+}
